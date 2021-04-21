@@ -1,0 +1,53 @@
+* {
+  padding: 3px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.gold {
+  background-color: gold;
+}
+.silver {
+  background-color: silver;
+}
+.bronze {
+  background-color: #b08d57;
+}
+.top-area {
+  width: 150px;
+  height: 240px;
+  float: left;
+  margin: 23px 5px;
+  border: 1px solid black;
+  border-radius: 300px;
+}
+.top-area:hover {
+  opacity: 0.8;
+  border: 2px dotted black;
+}
+.bottom-area {
+  float: left;
+  width: 30%;
+  margin: 10px 20px;
+  border: 10px double black;
+  font-size: 30px;
+}
+.bottom-area:hover {
+  opacity: 0.8;
+  border: 5px ridge black;
+}
+
+img:hover {
+  border: 5px ridge white;
+}
+hr {
+  border: 2px ridge gray;
+}
+.top-area {
+  padding-top: 40px;
+  width: 400px;
+}
+.btn-lg {
+
+  width: 250px;
+}
